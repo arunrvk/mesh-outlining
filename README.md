@@ -40,9 +40,9 @@ The Object outlining project using shader based post processing technique in bab
               \
               &emsp;&emsp;&emsp;&emsp;to glFragColor.
               \
-              &emsp;&emsp;&emsp;&emsp;3. For each pixel based on outlinePixelSize both on x and y direction, the Kernel n[10] is prepared to access adjent pixel
+              &emsp;&emsp;&emsp;&emsp;3. For each pixel based on outlinePixelSize both on x and y direction, the Kernel n[10] is prepared to
               \
-              &emsp;&emsp;&emsp;&emsp;colors value using texelFetch. The adjacent pixels are indexed as (-2,-1,0,1,+2) both in x and y direction.
+              &emsp;&emsp;&emsp;&emsp;access adjent pixel colors value using texelFetch. The adjacent pixels are indexed as (-2,-1,0,1,+2) both in x and y direction.
               \
               &emsp;&emsp;&emsp;&emsp;4. The length of each kernal in n[10] is checked if it is > 1.0 then a factor 'numValid' is incremented by 5.0.
               \ 
