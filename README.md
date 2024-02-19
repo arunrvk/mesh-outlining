@@ -17,8 +17,10 @@ The Object outlining project using shader based post processing technique in bab
 # Shader details
   As mentioned the project uses post processing technique for oulining the mesh in the scene.\
   \
-      &emsp;1. Default Vertex and Fragment Shaders\
+      &emsp;1. Default Vertex and Fragment Shaders
+      \
           &emsp;&emsp;a. These Shaders are used to create the default texture material(Flat Materials)
+          \
           \
       &emsp;2. Outline Vertex and Fragment Shaders
       \
@@ -53,7 +55,6 @@ The Object outlining project using shader based post processing technique in bab
               &emsp;&emsp;&emsp;&emsp;minimum of (1.0 andnumValid / 5.0).
               \
               &emsp;&emsp;&emsp;&emsp;6. This result color value is assigned to glFragColor.
-              \
 
 # Results 
 ![Alt text](/screenshots/Screenshot%202024-02-19%20at%207.44.57 PM.png?raw=true "Original Default Texture")
