@@ -67,3 +67,15 @@ The Object outlining project using shader based post processing technique in bab
 ![Alt text](/screenshots/Screenshot%202024-02-19%20at%207.44.57 PM.png?raw=true "Original Default Texture")
 ![Alt text](/screenshots/Screenshot%202024-02-19%20at%207.46.01 PM.png?raw=true "Floor Outline")
 ![Alt text](/screenshots/Screenshot%202024-02-19%20at%207.48.00 PM.png?raw=true "Mesh Outline")
+
+# References 
+    https://www.youtube.com/playlist?list=PLS9MbmO_ssyCT1KHSi1GYX73ayv_9GusY
+    \
+    https://io7m.com/documents/outline-glsl/
+    \
+    https://ameye.dev/notes/rendering-outlines/
+    \
+    https://doc.babylonjs.com/features/featuresDeepDive/controls/imageFilter
+    \
+    https://playground.babylonjs.com/#AC8XPN#81
+
