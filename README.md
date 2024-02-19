@@ -34,13 +34,19 @@ The Object outlining project using shader based post processing technique in bab
           \
               &emsp;&emsp;&emsp;&emsp;1. It first obtains the color values of the the default texture and selected texture.
               \ 
-              &emsp;&emsp;&emsp;&emsp;2. If the length of the selected texture color is > 1.0 then the default texture color is returned and assigned to glFragColor.
+              &emsp;&emsp;&emsp;&emsp;2. If the length of the selected texture color is > 1.0 then the default texture color is returned and assigned to
               \
-              &emsp;&emsp;&emsp;&emsp;3. For each pixel based on outlinePixelSize both on x and y direction, the Kernel n[10] is prepared to access adjent pixel colors value using texelFetch. The adjacent pixels are indexed as (-2,-1,0,1,+2) both in x and y direction.
+              &emsp;&emsp;&emsp;&emsp;glFragColor.
+              \
+              &emsp;&emsp;&emsp;&emsp;3. For each pixel based on outlinePixelSize both on x and y direction, the Kernel n[10] is prepared to access adjent pixel
+              \
+              &emsp;&emsp;&emsp;&emsp;colors value using texelFetch. The adjacent pixels are indexed as (-2,-1,0,1,+2) both in x and y direction.
               \
               &emsp;&emsp;&emsp;&emsp;4. The length of each kernal in n[10] is checked if it is > 1.0 then a factor 'numValid' is incremented by 5.0.
               \ 
-              &emsp;&emsp;&emsp;&emsp;5. Finally, the mixing color values of defaultTexColor and outlineColor based on a factor which is minimum of (1.0 and numValid / 5.0).
+              &emsp;&emsp;&emsp;&emsp;5. Finally, the mixing color values of defaultTexColor and outlineColor based on a factor which is minimum of (1.0 and
+              \ 
+              &emsp;&emsp;&emsp;&emsp;numValid / 5.0).
               \
               &emsp;&emsp;&emsp;&emsp;6. This result color value is assigned to glFragColor.
               \
