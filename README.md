@@ -26,14 +26,15 @@ The Object outlining project using shader based post processing technique in bab
           \
               &emsp;&emsp;&emsp;&emsp;i. 'textureSampler' which holds the default render target texture of the scene.
               \
-              &emsp;&emsp;&emsp;&emsp;ii. 'selectedSampler' which holds the outline render target texture of the selected mesh in using mesh picking approach.
+              &emsp;&emsp;&emsp;&emsp;ii. 'selectedSampler' which holds the outline render target texture of the selected mesh in using
+              \
+              &emsp;&emsp;&emsp;&emsp;mesh picking approach.
               \
           &emsp;&emsp;b. It has 'textureSize' , 'outlineColor' and 'outlinePixelSize' uniforms.
           \
           &emsp;&emsp;c. The 'outline' function does the following job,
           \
               &emsp;&emsp;&emsp;&emsp;1. It first obtains the color values of the the default texture and selected texture.
-              \ 
               &emsp;&emsp;&emsp;&emsp;2. If the length of the selected texture color is > 1.0 then the default texture color is returned and assigned to
               \
               &emsp;&emsp;&emsp;&emsp;glFragColor.
