@@ -35,6 +35,7 @@ The Object outlining project using shader based post processing technique in bab
           &emsp;&emsp;c. The 'outline' function does the following job,
           \
               &emsp;&emsp;&emsp;&emsp;1. It first obtains the color values of the the default texture and selected texture.
+              \
               &emsp;&emsp;&emsp;&emsp;2. If the length of the selected texture color is > 1.0 then the default texture color is returned and assigned to
               \
               &emsp;&emsp;&emsp;&emsp;glFragColor.
