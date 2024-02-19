@@ -16,8 +16,11 @@ The Object outlining project using shader based post processing technique in bab
 
 # Shader details
   As mentioned the project uses post processing technique for oulining the mesh in the scene.\
+  \
       1. Default Vertex and Fragment Shaders\
+      \
           a. These Shaders are used to create the default texture material(Flat Materials)\
+          \
       2. Outline Vertex and Fragment Shaders\
           a. It takes two samplers,\
               i. 'textureSampler' which holds the default render target texture of the scene.\
